@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPLOAD DE ARQUIVOS</title>
+</head>
+
+<body>
+    <form>
+        <center><h1>UPLOAD DE ARQUIVOS</h1></center>
+        <center><h2>PARTICIPANTES DO GRUPO:</h2></center>
+        <center><h3>Emerson de Souza Dantas</h3></center>
+        <center><h3>Gabriel Gomes de Souza Silva</h3></center>
+        <center><h3>Micaela Firmino da Silva</h3></center>
+        <center><h3>Thiago Alves de Medeiros Souza</h3></center>
+    </form>
+
+    <br>
+    <hr>
+    <br>
+
+    <h1>UPLOAD DE IMAGENS</h1>
+    <br>
+    <form action="file.php" method="post" enctype="multipart/form-data">
+        
+        <label for="imagem">Selecione uma imagem (jpg, png, bmp):</label>
+        <input type="file" name="imagem" accept=".jpg, .png, .bmp" required>
+        <br><br>
+    
+    </form>
+
+    <h1>UPLOAD DE ARQUIVO PDF</h1>
+    <br>
+    <label for="pdf">Selecione um arquivo PDF:</label>
+        <input type="file" name="pdf" accept=".pdf" required>
+        <br><br>
+        <hr>
+        <input type="submit" value="Enviar Arquivos">
+
+</body>
+
+</html>
